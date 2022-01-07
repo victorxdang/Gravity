@@ -1,0 +1,25 @@
+# Use the hashtag symbol to add comments or to comment out lines.
+# Only lines within the <start><end> block will be parsed.
+# Do not add comments within the <start><end> block, lines
+# can be commented out but do add more than 7 lines within the
+# <start><end> block.
+#
+# Any blocks after "F" is just a buffer zone for the camera so
+# it doesn't look like the map just abruptly ends.
+#
+# P = Player
+# C = Cube/Platform
+# T = Triangle/Spike
+# O = Falling obstacles (will spawn within the block so in the notepad, 
+#     place it below the line that it will spawn on)
+# F = Finish Flag
+
+<start>
+CCCCCCCCCCCCCTTTTTTCCCTTT        CCCCCCCCCCCTT   TTTTTTTTTT     TTTTTTTTTTT     CCCCCTTTTTT    TCCCTTTTTTTTTTTTTTTTTTTTTTTTT     CCCTTTTTTTTTTCTTTTTTTTTTTTTTTTTTTTTTTTTTT
+     TTTT                             TTTT                                       OOO
+                   OO    T         TT   TT                                                      OOO                              OOO                     F                 
+                CCCGGGGCCC        CCC   CCCCC   CCCC           CCGGG           CCCCCCCC     CCCCGGGCC       CCC                 CGGG     CCC     CCCCCCCCCCCCCCCCCCCCCCCCC
+                   OOOO           TT     TTTT   T                OOO                TTT       TTTTT                                      TOT     TTTTTO   O   O   OTTTTTTT
+   P    TTTT 
+CCCCCCCCCCCCCCCTTTTCCCCTT        TTTTTTCCCCCTTTT    TTTTTTT     CCCCCTTTTTT     TTTCCCCCC    TTTTTTTTTTTCTTTTTTTTTTTTTTTCCCTT     TTTTTTTCCCTTTTTTTTTTCTTTCTTTCTTTCTTTTTTT
+<end>
