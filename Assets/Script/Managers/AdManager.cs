@@ -28,8 +28,8 @@ public static class AdManager
         const string ADMOB_APPID_ANDROID = "";
 
         // the id of each live ad unit (AdMob)
-        const string BANNER_ANDROID = "ca-app-pub-8168057146331582/9974180569";
-        const string INTERSTITIAL_ANDROID = "ca-app-pub-8168057146331582/9578648640";
+        const string BANNER_ANDROID = "";
+        const string INTERSTITIAL_ANDROID = "";
         const string REWARDED_ANDROID = "";
 
         // the id of each test ad unit (AdMob)
@@ -46,9 +46,9 @@ public static class AdManager
         const string REWARDED_IPHONE = "";
 
         // the id of each live ad unit (AdMob)
-        const string TEST_BANNER_IPHONE = "ca-app-pub-3940256099942544/2934735716";
-        const string TEST_INTERSTITIAL_IPHONE = "ca-app-pub-3940256099942544/4411468910";
-        const string TEST_REWARDED_IPHONE = "ca-app-pub-3940256099942544/1712485313";
+        const string TEST_BANNER_IPHONE = "";
+        const string TEST_INTERSTITIAL_IPHONE = "";
+        const string TEST_REWARDED_IPHONE = "";
     #endif
 
     //---------------------------------------------------------------------------
